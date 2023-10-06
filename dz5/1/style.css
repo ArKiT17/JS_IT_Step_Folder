@@ -1,0 +1,27 @@
+body {
+    background: #fbf2e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+form * {
+    font-size: 1.3em;
+    font-family: Arial, serif;
+    margin-bottom: 20px;
+}
+
+form input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+form input[type="submit"] {
+    width: 100%;
+}
+
+form a {
+    float: right;
+}

@@ -1,0 +1,34 @@
+body {
+    background: #fbf2e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+form .fields {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+
+form * {
+    font-size: 1.1em;
+    font-family: Arial, serif;
+    margin-bottom: 20px;
+}
+
+form input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+form input[type="submit"] {
+    font-size: 1.3em;
+    width: 100%;
+}
+
+form a {
+    float: right;
+}

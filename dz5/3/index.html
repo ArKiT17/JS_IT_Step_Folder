@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Завдання 2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form name="loginForm">
+  <div class="fields">
+    <div>
+      <label for="firstname">Firstname:</label><br>
+      <input type="text" id="firstname" name="firstname" required/><br>
+    </div>
+    <div>
+      <label for="lastname">Lastname:</label><br>
+      <input type="text" id="lastname" name="lastname" required/><br>
+    </div>
+    <div>
+      <label for="birthday">Birthday:</label><br>
+      <input type="date" id="birthday" name="birthday" required/><br>
+    </div>
+    <div>
+      <label>Gender:</label>
+      <input type="radio" name="gender" id="maleGender" value="Male" required/>
+      <label for="maleGender">Male</label>
+      <input type="radio" name="gender" id="femaleGender" value="Female" required/>
+      <label for="femaleGender">Female</label>
+    </div>
+    <div>
+      <label for="countries">Country:</label><br>
+      <select name="countries" id="countries" size="1">
+        <option value="null"></option>
+        <option value="UA">Ukraine</option>
+        <option value="PL">Poland</option>
+      </select>
+    </div>
+    <div>
+      <label for="cities">City:</label><br>
+      <select name="cities" id="cities" size="1"></select>
+    </div>
+  </div>
+  <label>Skills:</label>
+  <input type="checkbox" name="html" id="html" value="HTML">
+  <label for="html">HTML</label>
+  <input type="checkbox" name="css" id="css" value="CSS">
+  <label for="css">CSS</label>
+  <input type="checkbox" name="js" id="js" value="JS">
+  <label for="js">JS</label>
+  <input type="checkbox" name="php" id="php" value="PHP">
+  <label for="php">PHP</label>
+  <input type="checkbox" name="cpp" id="cpp" value="C++">
+  <label for="cpp">C++</label>
+  <input type="checkbox" name="java" id="java" value="JAVA">
+  <label for="java">JAVA</label>
+  <input type="checkbox" name="csharp" id="csharp" value="C#">
+  <label for="csharp">C#</label>
+  <input type="submit" value="Save"><br>
+</form>
+<div id="result" hidden="hidden">
+  <h3>Result:</h3>
+  <table>
+    <tr>
+      <td>Firstname</td>
+      <td id="tableFirstname"></td>
+    </tr>
+    <tr>
+      <td>Lastname</td>
+      <td id="tableLastname"></td>
+    </tr>
+    <tr>
+      <td>Birthday</td>
+      <td id="tableBirthday"></td>
+    </tr>
+    <tr>
+      <td>Gender</td>
+      <td id="tableGender"></td>
+    </tr>
+    <tr>
+      <td>Country</td>
+      <td id="tableCountry"></td>
+    </tr>
+    <tr>
+      <td>City</td>
+      <td id="tableCity"></td>
+    </tr>
+    <tr>
+      <td>Skills</td>
+      <td id="tableSkills"></td>
+    </tr>
+  </table>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
