@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Homework</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Video</h1>
+<video id = "videoClip">
+  <source src = "clip.mp4" type = "video/mp4" />
+</video>
+<div id = "clipControls">
+  <input type = "button" id = "btnPlay" />
+  <input type = "button" id = "btnStop" />
+  <input type = "button" id = "btnFull" />
+  <progress value = 0></progress>
+  <input type = "button" id = "btnMute" />
+  <input type = "button" id = "btnQuiet" />
+  <input type = "button" id = "btnLoud" />
+</div>
+
+<h1>Audio</h1>
+<audio id = "audioTrack">
+  <source src = "video.m4a" type = "audio/mp3" />
+</audio>
+<div id = "trackControls">
+  <input type = "button" id = "btnPlayAudio" />
+  <input type = "button" id = "btnStopAudio" />
+  <progress value = 0></progress>
+  <input type = "button" id = "btnMuteAudio" />
+  <input type = "button" id = "btnQuietAudio" />
+  <input type = "button" id = "btnLoudAudio" />
+</div>
+<script src="script.js"></script>
+</body>
+</html>

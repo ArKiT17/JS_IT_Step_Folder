@@ -1,0 +1,11 @@
+#videoClip {
+    width: 350px;
+}
+#clipControls {
+    align-items: center;
+    display: flex;
+    width: 350px;
+}
+input[type = button] {
+    font-size: large;
+}
