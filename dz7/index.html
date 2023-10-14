@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form name="form" onsubmit="validateForm(event)">
+  <div class="component">
+    <label for="firstname">First name:</label>
+    <input type="text" name="firstname" id="firstname" required>
+  </div>
+  <div class="component">
+    <label for="lastname">Second name:</label>
+    <input type="text" name="lastname" id="lastname" required>
+  </div>
+  <div class="component">
+    <label for="login">Login:</label>
+    <input type="text" name="login" id="login" required>
+  </div>
+  <div class="component">
+    <label for="password">Password:</label>
+    <input type="password" name="password" id="password" required>
+  </div>
+  <div class="component">
+    <label for="retype">Retype:</label>
+    <input type="password" name="retype" id="retype" required>
+  </div>
+  <div class="component">
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" required>
+  </div>
+  <div class="component">
+    <label for="cellular">Cellular:</label>
+    <input type="text" name="cellular" id="cellular" required>
+  </div>
+  <div class="component">
+    <label for="code">Code:</label>
+    <input type="text" name="code" id="code" required>
+  </div>
+  <div class="component-right">
+    <div>
+      <input type="checkbox" name="rules" id="rules" required>
+      <label for="rules">I accept the rules</label>
+    </div>
+  </div>
+  <div class="component-right">
+    <input class="right" type="submit" value="Register">
+  </div>
+</form>
+<script src="script.js"></script>
+</body>
+</html>

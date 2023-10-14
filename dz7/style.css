@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+}
+
+form {
+    width: 280px;
+}
+
+.component, .component-right {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2px;
+}
+
+.component-right {
+    margin-left: 39%;
+}
+
+.error {
+    border: 2px solid red;
+}
